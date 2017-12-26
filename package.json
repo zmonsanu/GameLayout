@@ -4,6 +4,8 @@
   "description": "Web con Bootstrap Curso",
   "main": "index.js",
   "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +13,11 @@
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6"
   },
+  "dependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+},
   "devDependencies": {
     "browser-sync": "^2.19.0",
     "gulp": "^3.9.1",
