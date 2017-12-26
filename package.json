@@ -2,8 +2,10 @@
   "name": "gamelayout",
   "version": "1.0.0",
   "description": "Web con Bootstrap Curso",
-  "main": "gulpfile.js",
-  "scripts": {    
+  "main": "index.html",
+  "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
