@@ -4,7 +4,7 @@
   "description": "Web con Bootstrap Curso",
   "main": "index.js",
   "scripts": {
-     "start": "gulp",
+     "start": "node app",
      "postinstall": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
