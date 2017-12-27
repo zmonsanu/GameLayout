@@ -1,6 +1,9 @@
 {
   "name": "gamelayout",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.3"
+  },
   "description": "Web con Bootstrap Curso",
   "main": "index.js",
   "scripts": {
